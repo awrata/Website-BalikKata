@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Balik Kata</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="Image/logo.png" type="image/png" />
+</head>
+<body>
+  <div class="container">
+    <h1>Balik Kata</h1>
+    
+    <div class="input-wrapper">
+      <input type="text" id="teksInput" placeholder="Ketik di sini" />
+      <button class="del-btn" onclick="hapusKabeh()">Del</button>
+    </div>
+
+    <button class="balik-btn" onclick="balikKata()">Balik</button>
+
+    <p id="hasil">Hasil: </p>
+
+    <div class="histori-container">
+      <div class="histori" id="histori">
+        <h3>Histori:</h3>
+      </div>
+      <button class="hapus-btn" onclick="hapusHistori()">Hapus Histori</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
